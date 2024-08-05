@@ -3,6 +3,8 @@
 #include "core/operator.h"
 #include "core/tensor.h"
 
+#include <algorithm>
+
 namespace infini
 {
 
