@@ -39,7 +39,10 @@ namespace infini
         // TODO：返回经过 clip 操作后的 shape
         // REF: https://onnx.ai/onnx/operators/onnx__Clip.html#clip-13
         // =================================== 作业 ===================================
+<<<<<<< HEAD
         // return {{}};
+=======
+>>>>>>> 068e8ab5823b6147665d8c91354e51190b134238
         return std::nullopt;
     }
 
@@ -76,7 +79,6 @@ namespace infini
         // TODO：返回经过 cast 操作后的 shape
         // REF: https://onnx.ai/onnx/operators/onnx__Cast.html#cast-21
         // =================================== 作业 ===================================
-        // return {{}};
         return std::nullopt;
     }
 
