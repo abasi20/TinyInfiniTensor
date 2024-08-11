@@ -63,7 +63,7 @@ namespace infini
          */
         template <typename T, typename... Args>
         Ref<T> addOp(Args &&...args)
-        {
+        {  
             Ref<T> op = infini::make_ref<T>(this, std::forward<Args>(args)...);
             addOperatorAndConnect(op);
             return op;
